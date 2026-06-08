@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact Nvision IT — Let's Build Something</title>
+  <meta name="description" content="Talk to Nvision IT about Oracle ERP, cloud, analytics or government IT. We respond within one business day. Call 314-249-0824." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@300;400;500;600;700;800&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main>
+    <section class="page-hero" style="padding-bottom:30px">
+      <div class="hero-grid"></div>
+      <span class="crumb" data-reveal><a href="index.html">Home</a> / Contact</span>
+      <h1 data-reveal>Let's solve it <em>together</em>.</h1>
+      <p data-reveal>Tell us what you're trying to achieve. Whether it's a full Oracle rollout or a
+        single expert for your team, we'll point you to the right next step — and respond within
+        one business day.</p>
+    </section>
+
+    <section class="contact section" id="contact" style="padding-top:20px">
+      <div class="contact-card" data-reveal>
+        <div class="contact-left">
+          <span class="eyebrow">// Reach us directly</span>
+          <h2>Talk to a real expert.</h2>
+          <p>No call centers, no runaround. You'll talk with people who actually do the work.</p>
+          <div class="contact-meta">
+            <a href="tel:3142490824" data-magnetic><span>Call</span><b>314-249-0824</b></a>
+            <a href="mailto:info@nvisioninfotech.com" data-magnetic><span>Email</span><b>info@nvisioninfotech.com</b></a>
+            <div><span>Visit</span><b>743 Spirit 40 Park Dr, Suite 204<br/>Chesterfield, MO 63005</b></div>
+          </div>
+        </div>
+        <form class="contact-form" id="contactForm">
+          <div class="field"><input type="text" id="name" required /><label>Full name</label></div>
+          <div class="field"><input type="email" id="email" required /><label>Work email</label></div>
+          <div class="field"><input type="text" id="company" /><label>Company / agency</label></div>
+          <div class="field"><textarea id="message" rows="3" required></textarea><label>How can we help?</label></div>
+          <button type="submit" class="btn btn-primary" data-magnetic>
+            Send Message <svg viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+          </button>
+          <p class="form-note" id="formNote"></p>
+        </form>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="section" style="padding-top:30px">
+      <div class="section-head" data-reveal>
+        <span class="eyebrow">// Common questions</span>
+        <h2>Good to know <em>before we talk</em>.</h2>
+      </div>
+      <div class="faq">
+        <details data-reveal><summary>How quickly will I hear back?</summary>
+          <p>Within one business day. For urgent needs, call us directly at 314-249-0824 and we'll
+            get the right person on the line.</p></details>
+        <details data-reveal><summary>Do you only work with large companies?</summary>
+          <p>Not at all. We serve everyone from growing mid-sized organizations to the Fortune 500
+            and government agencies. We'll scope the engagement to fit your size and budget.</p></details>
+        <details data-reveal><summary>We're a government agency — can we hire you directly?</summary>
+          <p>Yes. We're a pre-approved government contractor with the certifications and contract
+            vehicles already in place, so you can often skip the lengthy bidding process. See our
+            <a href="public-sector.html" style="color:var(--cyan)">Public Sector page</a> for details.</p></details>
+        <details data-reveal><summary>What if I'm not sure exactly what I need?</summary>
+          <p>That's perfectly fine — most clients start there. Just tell us the outcome you're after,
+            and we'll recommend the right approach with no obligation.</p></details>
+        <details data-reveal><summary>Do you support us after the project goes live?</summary>
+          <p>Absolutely. Our managed support keeps your systems fast, secure and up to date long
+            after launch — so you're never left to figure it out alone.</p></details>
+      </div>
+    </section>
+  </main>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
