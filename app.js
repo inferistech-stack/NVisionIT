@@ -10,7 +10,7 @@
   const NAV = [
     { href: 'about.html', label: 'About' },
     { href: 'services.html', label: 'Services' },
-    { href: 'industries.html', label: 'Industries' },
+    { href: 'healthcare-it.html', label: 'Healthcare IT' },
     { href: 'public-sector.html', label: 'Public Sector' },
     { href: 'contact.html', label: 'Contact' },
   ];
@@ -48,7 +48,7 @@
           <p>Transforming today's business challenges into tomorrow's successes — since 2004.</p>
         </div>
         <div class="footer-cols">
-          <div><h4>Company</h4><a href="about.html">About Us</a><a href="industries.html">Industries</a><a href="public-sector.html">Public Sector</a></div>
+          <div><h4>Company</h4><a href="about.html">About Us</a><a href="healthcare-it.html">Healthcare IT</a><a href="public-sector.html">Public Sector</a></div>
           <div><h4>Services</h4><a href="services.html">ERP & Oracle</a><a href="services.html">Enterprise Cloud</a><a href="services.html">BI & Analytics</a></div>
           <div><h4>Contact</h4><a href="tel:3142490824">314-249-0824</a><a href="mailto:info@nvisioninfotech.com">Email us</a><a href="contact.html">Start a Project</a></div>
         </div>
